@@ -119,7 +119,8 @@ if user_input:
             I am a Data Science Enthusiast with an IBM-certified background in Data Analysis and Data Science. I specialize in transforming raw data into actionable insights through data manipulation, statistical analysis, and predictive modeling. Passionate about exploring patterns and trends to enable data-driven decision-making.
 
             Skills:
-            - Python, SQL, Power BI, Tableau, MongoDB, Jupyter Notebook, data analysis, data wrangling.
+            - Python, SQL, Power BI, Tableau, MongoDB, Jupyter Notebook, data analysis, data wrangling, Advanced excel, MS Office
+                Auto-cad.
             - Data Science: Machine Learning, Deep Learning, Predictive Modeling
 
             Work Experience:
