@@ -156,6 +156,7 @@ reliability and meeting industry standards.
 
             Recent Projects:
             - AI Chatbot
+            - Super Store Sales, power bi dashboard and forcast analysis project
             - Gameplay Analysis. github link - https://github.com/chetzkmr/Gameplay-Analysis
             - Particle Physics Event Classification. github link - https://github.com/chetzkmr/Particle-Physics-Events-Classification
             - Movie Recommendation System. github link - https://github.com/chetzkmr/Movie-recommendation-sysytem
