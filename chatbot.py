@@ -17,8 +17,8 @@ try:
         # Get the firebase credentials from Streamlit secrets
         firebase_creds = st.secrets["firebase"]
 
-        # Load the credentials as a dictionary
-        cred_dict = json.loads(firebase_creds)
+        # Convert AttrDict to a regular dict
+        cred_dict = dict(firebase_creds)
 
         # Initialize Firebase app with the credentials dictionary
         cred = credentials.Certificate(cred_dict)
@@ -88,8 +88,7 @@ if user_input:
         ai_response = "Sorry, I cannot answer personal queries."
     else:
         model = genai.GenerativeModel(model_name="gemini-1.5-flash")
-        prompt = (
-            """You are an AI Created by chethan on 14th jan 2025, 
+        prompt = ("""You are an AI Created by chethan on 14th jan 2025, 
             You are answering questions on chethan's behalf, random users will ask you questions.
             if user asks about me, tell them mainly about my professional details
               Please only answer questions related to chethan and Data Science.
