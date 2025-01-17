@@ -14,10 +14,16 @@ genai.configure(api_key=api_key)
 # Firebase initialization using credentials from Streamlit secrets
 try:
     if not firebase_admin._apps:
-        # Use the firebase credentials stored in Streamlit secrets
+        # Get the firebase credentials from Streamlit secrets
         firebase_creds = st.secrets["firebase"]
-        cred = credentials.Certificate(firebase_creds)
+
+        # Load the credentials as a dictionary
+        cred_dict = json.loads(firebase_creds)
+
+        # Initialize Firebase app with the credentials dictionary
+        cred = credentials.Certificate(cred_dict)
         firebase_admin.initialize_app(cred)
+
     db = firestore.client()
 except Exception as e:
     st.error(f"Error initializing Firebase: {e}")
