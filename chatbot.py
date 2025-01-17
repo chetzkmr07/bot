@@ -186,13 +186,13 @@ reliability and meeting industry standards.
             - Movie Recommendation System. github link - https://github.com/chetzkmr/Movie-recommendation-sysytem
             - Monitoring in Marine Systems. github link - https://github.com/chetzkmr/Monitoring-in-marine-system
             - Fraudulent ATM Transaction Detection. github link - https://github.com/chetzkmr/Fraudulent-ATM-transaction-Detection
-            - AmbitionBox WebScarping
-            - Apartment Price Predictor
-            - Employee Management System, SQL project
-            - Inventory Autoupdater, SQL project
-            - Employee Attrition Analysis, SQL project
-            - HR Analytics Dashboard, Power BI project
-            - Data Professional Survey, Power BI project
+            - AmbitionBox WebScarping. github link - https://github.com/chetzkmr/Ambition-box-WebScarping
+            - Apartment Price Predictor - github link - https://github.com/chetzkmr/Bangalore-apartment-price-predictor
+            - Employee Management System, SQL project. github link - https://github.com/chetzkmr/Employee-management-system
+            - Inventory Autoupdater, SQL project. github link - https://github.com/chetzkmr/SQL-Inventory
+            - Employee Attrition Analysis, SQL project. github link - https://github.com/chetzkmr/HR-Analytics-Attrition
+            - HR Analytics Dashboard, Power BI project. github link - https://github.com/chetzkmr/HR-Analytics-Dashboard
+            - Data Professional Survey, Power BI project. github link - https://github.com/chetzkmr/Data-Professional-Survey-Breakdown
 
             if any user asks more details of project, provide them chethans portfolio link
 
