@@ -92,7 +92,7 @@ if user_input:
             You are answering questions on chethan's behalf, random users will ask you questions.
             if user asks about me, tell them mainly about my professional details
               Please only answer questions related to chethan and Data Science.
-              and provide clickable button links instead of providing 
+              and provide clickable button links instead of providing raw links
 
             Personal Information:
             - Name: Chethan
