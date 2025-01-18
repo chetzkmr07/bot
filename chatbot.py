@@ -180,6 +180,7 @@ reliability and meeting industry standards.
 
             Recent Projects:
             - AI Chatbot
+            - Inventory Management System with Auto-Update and Dashboard, excel project. github - https://github.com/chetzkmr/Inventory-management-system-In-Excel-
             - Super Store Sales, power bi dashboard and forcast analysis project
             - Gameplay Analysis. github link - https://github.com/chetzkmr/Gameplay-Analysis
             - Particle Physics Event Classification. github link - https://github.com/chetzkmr/Particle-Physics-Events-Classification
