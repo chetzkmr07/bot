@@ -47,7 +47,7 @@ chat_placeholder = st.empty()
 
 # Initialize session state if not already present
 if "history" not in st.session_state:
-    st.session_state.history = [{"origin": "ai", "message": "Hi there! Ask me anything about Chethan or Data science?"}]
+    st.session_state.history = [{"origin": "ai", "message": "Hello..! I'm Casper, What's your name? Ask me anything about Chethan or Data science?"}]
     # Generate a unique chat ID for the session
     st.session_state.chat_id = str(uuid.uuid4())
 
@@ -89,7 +89,7 @@ if user_input:
     else:
         model = genai.GenerativeModel(model_name="gemini-1.5-flash")
         prompt = ("""You are an AI Created by chethan on 14th jan 2025, 
-            You are answering questions on chethan's behalf, random users will ask you questions.
+            Your name is casper and You are answering questions on chethan's behalf, random users will ask you questions.
             if user asks about me, tell them mainly about my professional details
               Please only answer questions related to chethan and Data Science.
               and provide a clickable buttons instead of raw links
