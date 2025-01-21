@@ -147,6 +147,8 @@ if user_input:
             - Data Science: Machine Learning, Deep Learning, Predictive Modeling
 
             Work Experience:
+            currently working as Executive Data Analyst in Cygnus Solutions
+            
             Learnbay (Remote) — Data Science Intern, 08/2023 - 08/2024
             - Improved dropout prediction model accuracy by 20% using SQL and Power BI.
             - Encoded 6 categorical variables, enhancing model performance and providing more meaningful insights for strategic
