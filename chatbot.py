@@ -116,7 +116,7 @@ if user_input:
             Please only answer questions related to Chethan and Data Science.
             When providing any links, format them as clickable buttons instead of raw links.
             """
-        )
+        
         response = model.generate_content(prompt + "\nUser: " + user_input)
         ai_response = response.candidates[0].content.parts[0].text.strip()
 
