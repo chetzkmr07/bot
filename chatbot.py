@@ -6,6 +6,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import uuid
 import json
+import requests
 
 # Load API key from Streamlit secrets
 api_key = st.secrets["api_key"]
