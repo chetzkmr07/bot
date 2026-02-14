@@ -106,7 +106,7 @@ if user_input:
     if is_personal_query(user_input):
         ai_response = "Sorry, I cannot answer personal queries."
     else:
-        model = genai.GenerativeModel(model_name="gemini-1.5-flash")
+        model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
         prompt = f"""
             You are an AI created by Chethan on 14th Jan 2025.
             You are answering questions on Chethan's behalf. Random users will ask you questions.
