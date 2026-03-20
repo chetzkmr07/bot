@@ -8,41 +8,7 @@ import uuid
 import json
 import requests
 
-st.markdown("""
-<style>
 
-/* Remove default padding completely */
-.block-container {
-    padding-top: 0rem !important;
-    padding-bottom: 0rem !important;
-}
-
-/* Kill top gap (MAIN FIX) */
-[data-testid="stAppViewContainer"] > .main {
-    padding-top: 0rem !important;
-    margin-top: -30px !important;
-}
-
-/* Remove header + toolbar */
-header {display: none !important;}
-[data-testid="stToolbar"] {display: none !important;}
-
-/* Remove footer */
-footer {display: none !important;}
-
-/* Fix bottom spacing */
-[data-testid="stChatInput"] {
-    margin-bottom: 0rem !important;
-    padding-bottom: 5px !important;
-}
-
-/* Remove extra bottom space */
-section.main > div {
-    padding-bottom: 0rem !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
 
 # Load API key from Streamlit secrets
 api_key = st.secrets["api_key"]
