@@ -8,49 +8,39 @@ import uuid
 import json
 import requests
 
-import streamlit as st
-
-import streamlit as st
-
 st.markdown("""
 <style>
 
-/* Remove top + bottom padding */
+/* Remove default padding completely */
 .block-container {
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
 }
 
-/* Remove extra space below chat input */
-[data-testid="stChatInput"] {
-    margin-bottom: 0rem !important;
-    padding-bottom: 0rem !important;
+/* Kill top gap (MAIN FIX) */
+[data-testid="stAppViewContainer"] > .main {
+    padding-top: 0rem !important;
+    margin-top: -30px !important;
 }
 
-/* Remove bottom whitespace from main container */
-[data-testid="stAppViewContainer"] {
-    padding-bottom: 0rem !important;
-}
+/* Remove header + toolbar */
+header {display: none !important;}
+[data-testid="stToolbar"] {display: none !important;}
 
 /* Remove footer */
 footer {display: none !important;}
 
-/* Remove header */
-header {display: none !important;}
+/* Fix bottom spacing */
+[data-testid="stChatInput"] {
+    margin-bottom: 0rem !important;
+    padding-bottom: 5px !important;
+}
 
-/* Optional: tighten layout */
+/* Remove extra bottom space */
 section.main > div {
     padding-bottom: 0rem !important;
 }
 
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<style>
-footer {display: none !important;}
-header {display: none !important;}
-[data-testid="stToolbar"] {display: none !important;}
 </style>
 """, unsafe_allow_html=True)
 
