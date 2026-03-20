@@ -8,6 +8,29 @@ import uuid
 import json
 import requests
 
+import streamlit as st
+
+st.markdown("""
+<style>
+/* Remove top padding */
+.block-container {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+/* Remove header space */
+header {
+    visibility: hidden;
+}
+
+/* Remove extra margin above app */
+[data-testid="stAppViewContainer"] {
+    margin-top: -20px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown("""
 <style>
 footer {display: none !important;}
