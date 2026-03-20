@@ -8,6 +8,14 @@ import uuid
 import json
 import requests
 
+st.markdown("""
+<style>
+footer {display: none !important;}
+header {display: none !important;}
+[data-testid="stToolbar"] {display: none !important;}
+</style>
+""", unsafe_allow_html=True)
+
 # Load API key from Streamlit secrets
 api_key = st.secrets["api_key"]
 genai.configure(api_key=api_key)
