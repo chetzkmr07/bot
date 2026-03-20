@@ -10,22 +10,37 @@ import requests
 
 import streamlit as st
 
+import streamlit as st
+
 st.markdown("""
 <style>
-/* Remove top padding */
+
+/* Remove top + bottom padding */
 .block-container {
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
 }
 
-/* Remove header space */
-header {
-    visibility: hidden;
+/* Remove extra space below chat input */
+[data-testid="stChatInput"] {
+    margin-bottom: 0rem !important;
+    padding-bottom: 0rem !important;
 }
 
-/* Remove extra margin above app */
+/* Remove bottom whitespace from main container */
 [data-testid="stAppViewContainer"] {
-    margin-top: -20px;
+    padding-bottom: 0rem !important;
+}
+
+/* Remove footer */
+footer {display: none !important;}
+
+/* Remove header */
+header {display: none !important;}
+
+/* Optional: tighten layout */
+section.main > div {
+    padding-bottom: 0rem !important;
 }
 
 </style>
